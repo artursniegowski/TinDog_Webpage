@@ -8,6 +8,11 @@ This is a responsive webpege built with the use of Bootstrap 5. It represents th
 **This webpage was developed using Bootstrap 5.2 ,HTML5, CSS.**
 </br>
 
+**Google fonts**</br>
+https://fonts.google.com/about </br>
+
+**Fontawesome Icons**</br>
+https://fontawesome.com/icons</br>
 
 
 Bootstrap 5.2</br>
