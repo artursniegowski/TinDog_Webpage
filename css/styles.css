@@ -1,0 +1,188 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    size: 3rem;
+    line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+.color-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Title section */
+/* more specific rules overides the above container rule */
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Navigtion bar */
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 3%;
+}
+
+/* title image */
+.image-phone-title {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+
+.image-container-phone {
+    position: relative;
+}
+
+/* featureing section */
+#features {
+    position: relative;
+    /* position added for the z-index to be in drawnn over the
+    element of .imagePhoneTitle */
+}
+
+.featured-icon {
+    color: #ff8172;
+}
+
+.featured-icon:hover {
+    color: #ff4c68;
+}
+
+.features-title {
+    size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#features p {
+    color: #81818f;
+}
+
+.featured-element {
+    padding: 3%;
+}
+
+ /* Testimonials sections */
+ /* ids are more specific and they get applied over other selectors */
+#testimonials {
+    background-color: #ff8172;
+}
+
+.testimonials-text{
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* press section */
+#press {
+    background-color: #ff8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+}
+
+.price-text{
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-title {
+    size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#pricing p {
+    color: #81818f;
+}
+
+/* call to action / cta sectin */
+
+/* footer section */
+#footer {
+    color: #81818f;
+}
+.footer-icons {
+    color: black;
+    margin: 20px 10px;
+}
+
+
+/* media query breakpoints */
+@media (max-width: 992px){
+    #title {
+        text-align: center;
+    }
+    .image-phone-title {
+        transform: rotate(0);
+        position: static;
+    }
+}
