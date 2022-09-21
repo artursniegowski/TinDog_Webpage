@@ -1,6 +1,6 @@
 # TinDog_Webpege
 
-This is a responsive webpege built with the use of Bootstrap 5. It represents the main page for a webpage that is supposed to be just like Tinder but for dogs. The layout and format are created with Bootstrap 5, which cuts down on the amount of CSS code required to write a beautiful, responsive webpage. CSS is used to complete the styling to our liking.</br>
+This is a responsive webpege built with the use of Bootstrap 5. It represents the main page for a website that is supposed to be just like Tinder but for dogs. The layout and format are created with Bootstrap 5, which cuts down on the amount of CSS code required to write a beautiful, responsive webpage. CSS is used to complete the styling to our liking.</br>
 
 </br>
 
